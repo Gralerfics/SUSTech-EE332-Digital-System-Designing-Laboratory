@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"Counter_tb_func_synth.vhd" \
+"../../../../../Tutorial.srcs/sim_1/new/Counter_tb.vhd" \
+
+# Do not sort compile order
+nosort

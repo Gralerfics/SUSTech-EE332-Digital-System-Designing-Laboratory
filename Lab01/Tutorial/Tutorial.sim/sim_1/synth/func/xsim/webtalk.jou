@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Feb 16 23:25:40 2023
+# Process ID: 9392
+# Current directory: C:/Workplace/DSDLab/Lab01/Tutorial/Tutorial.sim/sim_1/synth/func/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Workplace/DSDLab/Lab01/Tutorial/Tutorial.sim/sim_1/synth/func/xsim/xsim.dir/Counter_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Workplace/DSDLab/Lab01/Tutorial/Tutorial.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: C:/Workplace/DSDLab/Lab01/Tutorial/Tutorial.sim/sim_1/synth/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Workplace/DSDLab/Lab01/Tutorial/Tutorial.sim/sim_1/synth/func/xsim/xsim.dir/Counter_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace

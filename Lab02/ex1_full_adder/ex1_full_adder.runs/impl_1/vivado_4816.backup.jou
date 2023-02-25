@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Feb 20 19:35:12 2023
+# Process ID: 4816
+# Current directory: C:/Workplace/DSDLab/Lab02/ex1_full_adder/ex1_full_adder.runs/impl_1
+# Command line: vivado.exe -log full_adder_1bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source full_adder_1bit.tcl -notrace
+# Log file: C:/Workplace/DSDLab/Lab02/ex1_full_adder/ex1_full_adder.runs/impl_1/full_adder_1bit.vdi
+# Journal file: C:/Workplace/DSDLab/Lab02/ex1_full_adder/ex1_full_adder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source full_adder_1bit.tcl -notrace

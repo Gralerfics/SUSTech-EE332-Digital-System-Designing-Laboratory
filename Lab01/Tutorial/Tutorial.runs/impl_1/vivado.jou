@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Feb 16 23:21:23 2023
+# Process ID: 14376
+# Current directory: C:/Workplace/DSDLab/Lab01/Tutorial/Tutorial.runs/impl_1
+# Command line: vivado.exe -log Counter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Counter.tcl -notrace
+# Log file: C:/Workplace/DSDLab/Lab01/Tutorial/Tutorial.runs/impl_1/Counter.vdi
+# Journal file: C:/Workplace/DSDLab/Lab01/Tutorial/Tutorial.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Counter.tcl -notrace
