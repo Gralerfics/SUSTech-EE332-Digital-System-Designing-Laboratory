@@ -1,7 +1,0 @@
-Running: xsim.dir/full_adder_1bit_tb_func_synth/xsimk.exe -simmode gui -wdb full_adder_1bit_tb_func_synth.wdb -simrunnum 0 -socket 56373
-Design successfully loaded
-Design Loading Memory Usage: 8356 KB (Peak: 8356 KB)
-Design Loading CPU Usage: 217 ms
-Simulation completed
-Simulation Memory Usage: 8892 KB (Peak: 8892 KB)
-Simulation CPU Usage: 233 ms

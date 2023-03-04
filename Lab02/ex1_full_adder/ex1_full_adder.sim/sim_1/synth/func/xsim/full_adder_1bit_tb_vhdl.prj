@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"full_adder_1bit_tb_func_synth.vhd" \
-"../../../../../ex1_full_adder.srcs/sim_1/new/full_adder_1bit_tb.vhd" \
-
-# Do not sort compile order
-nosort

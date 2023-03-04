@@ -1,4 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/DSDLab/Lab02/ex1_full_adder/ex1_full_adder.sim/sim_1/impl/func/xsim/full_adder_1bit_tb_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/EE332-Digital-System-Designing-Laboratory/Lab02/ex1_full_adder/ex1_full_adder.sim/sim_1/impl/func/xsim/full_adder_1bit_tb_func_impl.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'full_adder_1bit'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/DSDLab/Lab02/ex1_full_adder/ex1_full_adder.srcs/sim_1/new/full_adder_1bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/EE332-Digital-System-Designing-Laboratory/Lab02/ex1_full_adder/ex1_full_adder.srcs/sim_1/new/full_adder_1bit_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'full_adder_1bit_tb'

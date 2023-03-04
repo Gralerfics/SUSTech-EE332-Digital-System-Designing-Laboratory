@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Mon Feb 20 19:43:16 2023
+// Date        : Tue Feb 28 00:38:13 2023
 // Host        : DESKTOP-6BOE7R7 running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
-//               C:/Workplace/DSDLab/Lab02/ex1_full_adder/ex1_full_adder.sim/sim_1/impl/timing/xsim/full_adder_1bit_tb_time_impl.v
+//               C:/Workplace/EE332-Digital-System-Designing-Laboratory/Lab02/ex1_full_adder/ex1_full_adder.sim/sim_1/impl/timing/xsim/full_adder_1bit_tb_time_impl.v
 // Design      : full_adder_1bit
 // Purpose     : This verilog netlist is a timing simulation representation of the design and should not be modified or
 //               synthesized. Please ensure that this netlist is used with the corresponding SDF file.
@@ -13,19 +13,25 @@
 `timescale 1 ps / 1 ps
 `define XIL_TIMING
 
-(* ECO_CHECKSUM = "39332e70" *) 
+(* ECO_CHECKSUM = "ceffb4c1" *) 
 (* NotValidForBitStream *)
 module full_adder_1bit
    (A,
     B,
     Cin,
     S,
-    Cout);
+    Cout,
+    S1out,
+    S2out,
+    S3out);
   input A;
   input B;
   input Cin;
   output S;
   output Cout;
+  output S1out;
+  output S2out;
+  output S3out;
 
   wire A;
   wire A_IBUF;
@@ -36,6 +42,12 @@ module full_adder_1bit
   wire Cout;
   wire Cout_OBUF;
   wire S;
+  wire S1out;
+  wire S1out_OBUF;
+  wire S2out;
+  wire S2out_OBUF;
+  wire S3out;
+  wire S3out_OBUF;
   wire S_OBUF;
 
 initial begin
@@ -61,10 +73,40 @@ end
         .I1(B_IBUF),
         .I2(A_IBUF),
         .O(Cout_OBUF));
+  OBUF S1out_OBUF_inst
+       (.I(S1out_OBUF),
+        .O(S1out));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT2 #(
+    .INIT(4'h6)) 
+    S1out_OBUF_inst_i_1
+       (.I0(B_IBUF),
+        .I1(A_IBUF),
+        .O(S1out_OBUF));
+  OBUF S2out_OBUF_inst
+       (.I(S2out_OBUF),
+        .O(S2out));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT3 #(
+    .INIT(8'h28)) 
+    S2out_OBUF_inst_i_1
+       (.I0(Cin_IBUF),
+        .I1(A_IBUF),
+        .I2(B_IBUF),
+        .O(S2out_OBUF));
+  OBUF S3out_OBUF_inst
+       (.I(S3out_OBUF),
+        .O(S3out));
+  LUT2 #(
+    .INIT(4'h8)) 
+    S3out_OBUF_inst_i_1
+       (.I0(A_IBUF),
+        .I1(B_IBUF),
+        .O(S3out_OBUF));
   OBUF S_OBUF_inst
        (.I(S_OBUF),
         .O(S));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT3 #(
     .INIT(8'h96)) 
     S_OBUF_inst_i_1

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Workplace/DSDLab/Lab02/ex1_full_adder/ex1_full_adder.runs/impl_1'
+HD_PWD='C:/Workplace/EE332-Digital-System-Designing-Laboratory/Lab02/ex1_full_adder/ex1_full_adder.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log full_adder_1bit.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source full_adder_1bit.tcl -notrace
+EAStep vivado -log main.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source main.tcl -notrace
 
 
