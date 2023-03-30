@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/SUSTech-EE332-Digital-System-Designing-Laboratory/Lab02/ex4_three_digit_decimal_counter/ex4_three_digit_decimal_counter.srcs/sources_1/new/three_digit_decimal_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'three_digit_decimal_counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/SUSTech-EE332-Digital-System-Designing-Laboratory/Lab02/ex4_three_digit_decimal_counter/ex4_three_digit_decimal_counter.srcs/sim_1/new/top_module_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top_module_tb'
