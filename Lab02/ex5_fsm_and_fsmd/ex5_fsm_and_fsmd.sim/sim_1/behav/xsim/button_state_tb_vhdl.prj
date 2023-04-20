@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl2008 xil_defaultlib  \
-"../../../../src/hdl/button_state.vhd" \
-"../../../../src/tb/button_state_tb.vhd" \
-
-# Do not sort compile order
-nosort

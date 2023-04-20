@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../../ex3_16_to_4_priority_encoder.srcs/sim_1/new/top_module_tb.vhd" \
-
-# Do not sort compile order
-nosort

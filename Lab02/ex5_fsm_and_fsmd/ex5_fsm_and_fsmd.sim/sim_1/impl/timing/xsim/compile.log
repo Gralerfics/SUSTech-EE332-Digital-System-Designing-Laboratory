@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Workplace/SUSTech-EE332-Digital-System-Designing-Laboratory/Lab02/ex5_fsm_and_fsmd/ex5_fsm_and_fsmd.sim/sim_1/impl/timing/xsim/fibonacci_tb_time_impl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fibonacci
-INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/SUSTech-EE332-Digital-System-Designing-Laboratory/Lab02/ex5_fsm_and_fsmd/src/hdl/types.vhd" into library xil_defaultlib
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/SUSTech-EE332-Digital-System-Designing-Laboratory/Lab02/ex5_fsm_and_fsmd/src/tb/fibonacci_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'fibonacci_tb'

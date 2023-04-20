@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/DSDLab/Lab01/Tutorial/Tutorial.sim/sim_1/synth/func/xsim/Counter_tb_func_synth.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'Counter'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/DSDLab/Lab01/Tutorial/Tutorial.srcs/sim_1/new/Counter_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'Counter_tb'

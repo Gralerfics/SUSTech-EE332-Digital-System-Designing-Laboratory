@@ -1,9 +1,0 @@
-# compile vhdl design source files
-vhdl2008 xil_defaultlib  \
-"../../../../src/hdl/sequence_recognizer.vhd" \
-
-vhdl xil_defaultlib  \
-"../../../../src/tb/sequence_recognizer_tb.vhd" \
-
-# Do not sort compile order
-nosort

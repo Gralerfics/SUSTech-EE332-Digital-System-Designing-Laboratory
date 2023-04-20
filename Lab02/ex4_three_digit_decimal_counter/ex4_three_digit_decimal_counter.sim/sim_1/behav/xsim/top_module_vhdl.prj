@@ -1,9 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../ex4_three_digit_decimal_counter.srcs/sources_1/new/freq_divider.vhd" \
-"../../../../ex4_three_digit_decimal_counter.srcs/sources_1/new/seven_segments_display_decoder.vhd" \
-"../../../../ex4_three_digit_decimal_counter.srcs/sources_1/new/three_digit_decimal_counter.vhd" \
-"../../../../ex4_three_digit_decimal_counter.srcs/sources_1/new/top_module.vhd" \
-
-# Do not sort compile order
-nosort
