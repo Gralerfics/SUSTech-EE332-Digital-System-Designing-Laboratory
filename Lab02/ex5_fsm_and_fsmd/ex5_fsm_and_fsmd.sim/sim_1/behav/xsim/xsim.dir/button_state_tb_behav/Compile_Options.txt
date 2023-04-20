@@ -1,0 +1,1 @@
+-wto "2c10a15af07d4affbc7e95cf62f3acd3" --incr --debug "typical" --relax --mt "32" -L "xil_defaultlib" -L "secureip" --snapshot "button_state_tb_behav" "xil_defaultlib.button_state_tb" -log "elaborate.log" 

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../../src/hdl/types.vhd" \
+"../../../../../src/tb/fibonacci_tb.vhd" \
+
+# Do not sort compile order
+nosort

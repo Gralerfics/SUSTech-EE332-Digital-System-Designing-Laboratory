@@ -42,13 +42,13 @@ begin
     C <= data_in(7 downto 4);
     D <= data_in(3 downto 0);
 
-    num_in(0) <= A;
-    num_in(1) <= B;
-    num_in(2) <= C;
-    num_in(3) <= D;
+    num_in(7) <= A;
+    num_in(6) <= B;
+    num_in(5) <= C;
+    num_in(4) <= D;
 
-    num_in(4) <= A + B;
-    num_in(5) <= A - B;
-    num_in(6) <= C + D;
-    num_in(7) <= C - D;
+    num_in(3) <= A + B;
+    num_in(2) <= A - B;
+    num_in(1) <= C + D;
+    num_in(0) <= C - D;
 end architecture;

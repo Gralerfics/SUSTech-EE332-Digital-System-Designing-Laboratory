@@ -2,8 +2,8 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Mon Mar 27 20:59:16 2023
-# Process ID: 5232
+# Start of session at: Mon Apr 10 19:35:43 2023
+# Process ID: 3292
 # Current directory: C:/Workplace/SUSTech-EE332-Digital-System-Designing-Laboratory/Lab03/lab03/project/lab03.runs/synth_1
 # Command line: vivado.exe -log top_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_module.tcl
 # Log file: C:/Workplace/SUSTech-EE332-Digital-System-Designing-Laboratory/Lab03/lab03/project/lab03.runs/synth_1/top_module.vds

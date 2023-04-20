@@ -1,0 +1,3 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/SUSTech-EE332-Digital-System-Designing-Laboratory/Lab02/ex5_fsm_and_fsmd/src/hdl/types.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Workplace/SUSTech-EE332-Digital-System-Designing-Laboratory/Lab02/ex5_fsm_and_fsmd/src/tb/fibonacci_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fibonacci_tb'
